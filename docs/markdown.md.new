@@ -1,0 +1,127 @@
+---
+icon: simple/markdown
+title: Markdown et Zensical — Guide complet
+---
+
+# Markdown avec Zensical
+
+Bienvenue dans le guide complet du Markdown avec Zensical! Ce guide est organisé en **modules indépendants**, chacun couvrant un aspect spécifique du Markdown avec des exemples détaillés et des diagrammes.
+
+## 📚 Modules du guide
+
+```mermaid
+graph TD
+    A["Markdown<br/>avec Zensical"] --> B["Structure"]
+    A --> C["Contenu"]
+    A --> D["Interactif"]
+    A --> E["Config"]
+    
+    B --> B1["En-têtes"]
+    B --> B2["Listes"]
+    B --> B3["Citations"]
+    
+    C --> C1["Texte"]
+    C --> C2["Liens & Images"]
+    C --> C3["Code"]
+    C --> C4["Tables"]
+    
+    D --> D1["Admonitions"]
+    D --> D2["Footnotes"]
+    
+    E --> E1["Frontmatter"]
+    
+    style A fill:#E3F2FD
+    style B fill:#FFF9C4
+    style C fill:#FFF9C4
+    style D fill:#FFF9C4
+    style E fill:#FFF9C4
+```
+
+### Structure du document
+
+| Module | Description | Durée |
+|--------|-------------|-------|
+| [En-têtes](markdown-en-tetes.md) | Titres et hiérarchie (H1-H6) | 5 min |
+| [Listes](markdown-listes.md) | Listes ordonnées, non ordonnées, imbriquées | 8 min |
+| [Citations](markdown-citations.md) | Blockquotes et encadrés | 5 min |
+
+### Contenu enrichi
+
+| Module | Description | Durée |
+|--------|-------------|-------|
+| [Mise en forme du texte](markdown-texte.md) | Gras, italique, code, indices, exposants | 6 min |
+| [Liens et images](markdown-liens-images.md) | Navigation interne, assets, accessibilité | 8 min |
+| [Blocs de code](markdown-code.md) | Syntax highlighting, annotations, options avancées | 12 min |
+| [Tables](markdown-tables.md) | Tableaux, alignement, cas d'usage | 10 min |
+
+### Éléments interactifs
+
+| Module | Description | Durée |
+|--------|-------------|-------|
+| [Admonitions & détails](markdown-admonitions.md) | Notes, warnings, blocs repliables | 10 min |
+| [Footnotes](markdown-footnotes.md) | Notes de bas de page, références | 6 min |
+
+### Configuration
+
+| Module | Description | Durée |
+|--------|-------------|-------|
+| [Frontmatter Zensical](markdown-frontmatter.md) | Métadonnées YAML, icônes, personnalisation | 7 min |
+
+**Temps total : ~77 minutes** (parcourez les modules qui vous intéressent)
+
+## 🚀 Démarrage rapide
+
+Pour commencer immédiatement :
+
+1. **Créez votre première page** : Utilisez le [guide des en-têtes](markdown-en-tetes.md)
+2. **Structurez le contenu** : Maîtrisez les [listes](markdown-listes.md)
+3. **Enrichissez avec du code** : Consultez les [blocs de code](markdown-code.md)
+4. **Bonus** : Ajoutez des [admonitions](markdown-admonitions.md) pour l'interactivité
+
+## 💡 Conseils généraux
+
+```mermaid
+flowchart LR
+    A["Rédaction Markdown"] --> B["Lisibilité"]
+    A --> C["Accessibilité"]
+    A --> D["Performance"]
+    
+    B --> B1["Titres clairs"]
+    B --> B2["Texte court"]
+    B --> B3["Listes ordonnées"]
+    
+    C --> C1["Alt pour images"]
+    C --> C1 --> C1a["🙋 Lecteurs d'écran"]
+    C --> C2["Liens explicites"]
+    C --> C2 --> C2a["🔗 SEO"]
+    
+    D --> D1["Pas d'images énormes"]
+    D --> D2["Code manageable"]
+    D --> D3["Tables pas trop larges"]
+    
+    style B1 fill:#C8E6C9
+    style C1a fill:#C8E6C9
+    style C2a fill:#C8E6C9
+    style D1 fill:#C8E6C9
+```
+
+### ✅ Checklist de qualité
+
+- [ ] Un seul H1 par page (titre principal)
+- [ ] Titres courts et descriptifs
+- [ ] Texte alternatif sur toutes les images
+- [ ] Liens avec texte explicite (pas "cliquez ici")
+- [ ] Code formaté avec langage spécifié
+- [ ] Tables avec max 5-6 colonnes
+- [ ] Admonitions pour contenu important
+- [ ] Documentation à jour et testée
+
+## 🔗 Liens externes
+
+- [Documentation officielle Zensical](https://zensical.org/docs/)
+- [Spec Markdown CommonMark](https://spec.commonmark.org/)
+- [Guide Markdown (GitHub)](https://guides.github.com/features/mastering-markdown/)
+
+---
+
+**Vous êtes prêt ?** Commencez par le [module sur les en-têtes](markdown-en-tetes.md) ou allez directement au module qui vous intéresse!
